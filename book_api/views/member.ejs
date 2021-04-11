@@ -14,7 +14,7 @@
     <% if (locals.books) { %>
       <ul>
         <% for (let book of books) { %>
-          <li><a href='/book/<%=book.idbook%>'><%=book.title%></a></li>
+          <li><a href='/book?idbook=<%=book.idbook%>'><%=book.title%></a></li>
         <% } %>
       </ul>
     <% } %>
